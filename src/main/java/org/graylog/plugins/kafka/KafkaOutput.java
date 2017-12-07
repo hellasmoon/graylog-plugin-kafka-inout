@@ -28,7 +28,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 public class KafkaOutput implements MessageOutput {
 
     private Logger LOG = LoggerFactory.getLogger(this.getClass());
-    public static final String NAME = "Kafka output plugin";
+    public static final String NAME = "KAFKA Output Plugin";
     public static final String CK_BROKER_SERVER = "broker_server";
     public static final String CK_ACK = "ack";
     public static final String CK_RETRIES = "retries";

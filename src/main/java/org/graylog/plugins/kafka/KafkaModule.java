@@ -24,12 +24,12 @@ public class KafkaModule extends PluginModule {
     protected void configure() {
         addTransport("Kafka in-out plugin", KafkaTransport.class);
         addTransport("Kafka in pre 09", KafkaTransportPre9.class);
-        addMessageInput(GELFKafkaInput.class);
-        addMessageInput(GELFKafkaInputPre9.class);
-        addMessageInput(RawKafkaInput.class);
-        addMessageInput(RawKafkaInputPre9.class);
-        addMessageInput(SyslogKafkaInput.class);
-        addMessageInput(SyslogKafkaInputPre9.class);
+        //addMessageInput(GELFKafkaInput.class);
+        //addMessageInput(GELFKafkaInputPre9.class);
+        //addMessageInput(RawKafkaInput.class);
+        //addMessageInput(RawKafkaInputPre9.class);
+        //addMessageInput(SyslogKafkaInput.class);
+        //addMessageInput(SyslogKafkaInputPre9.class);
         addMessageOutput(KafkaOutput.class,KafkaOutput.Factory.class);
     }
 }
